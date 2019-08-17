@@ -1,0 +1,2 @@
+# comentário
+FROM wildfly:latest
