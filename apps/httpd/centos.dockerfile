@@ -1,2 +1,0 @@
-# comentários.
-FROM centos:latest
