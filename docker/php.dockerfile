@@ -1,2 +1,0 @@
-# comentário
-FROM php:latest
