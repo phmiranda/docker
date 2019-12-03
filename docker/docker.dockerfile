@@ -2,7 +2,7 @@
 FROM node:latest
 
 # comentário
-MAINTAINER Pedro <pehhagah.1607@gmail.com>
+MAINTAINER Pedro Henrique <pehhagah.1607@gmail.com>
 
 # comentário
 COPY . /var/www/html
