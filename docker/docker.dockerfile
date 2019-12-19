@@ -15,4 +15,4 @@ RUN npm start
 EXPOSE 80 443
 
 # comentário
-ENTRYPOINT [ "" ]
+ENTRYPOINT [""]
