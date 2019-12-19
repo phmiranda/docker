@@ -10,6 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "bootstrap": "^3.4.1",
+    "express": "^4.15.3",
+    "jquery": "^3.4.1",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
   }
 }
