@@ -5,7 +5,7 @@ FROM node:latest
 MAINTAINER Pedro Henrique <pehhagah.1607@gmail.com>
 
 # comentário
-COPY . /var/www/html
+COPY ../public/ /var/www/html
 
 # comentário
 RUN npm install
