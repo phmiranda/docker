@@ -7,15 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "phmiranda",
+  "license": "MIT",
   "dependencies": {
-    "bootstrap": "^3.4.1",
-    "express": "^4.15.3",
-    "jquery": "^3.4.1",
-    "protractor": "^5.4.2"
-  },
-  "devDependencies": {
-    "jasmine": "^3.5.0"
+    "express": "^4.17.1"
   }
 }

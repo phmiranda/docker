@@ -1,1 +1,1 @@
-console.log('Testando container Docker!');
+console.log('executando um LOG...');
