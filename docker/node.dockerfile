@@ -8,7 +8,7 @@ MAINTAINER Pedro Henrique <pehhagah.1607@gmail.com>
 ENV PORTA=3000
 
 # cópia o código fonte para o contâiner.
-COPY . /var/www
+COPY .. /var/www
 
 # informa ao docker qual o diretório de trabalho dentro do contâiner.
 WORKDIR /var/www
