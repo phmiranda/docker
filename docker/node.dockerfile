@@ -5,19 +5,22 @@ FROM node:latest
 MAINTAINER Pedro Henrique <pehhagah.1607@gmail.com>
 
 # definição das váriáveis de ambiente no contâiner.
+ENV DOCKER_HOST_VOLUME=/var/www/desenvolvimento/docker
+ENV DOCKER_CONTAINER_VOLUME=/var/www/
 ENV PORTA=3000
 
 # cópia o código fonte para o contâiner.
-COPY ../public /var/www
+COPY $DOCKER_HOST_VOLUME $DOCKER_CONTAINER_VOLUME
+#VOLUME $DOCKER_HOST_VOLUME $DOCKER_CONTAINER_VOLUME
 
 # informa ao docker qual o diretório de trabalho dentro do contâiner.
-WORKDIR /var/www
+WORKDIR /var/www/
 
 # executa comandos dentro do container que irá ser criado.
 RUN npm install
 
-# expõe as portas de acesso ao contâiner.
-EXPOSE $PORTA
-
 # comandos de entrada ao criar contâiner.
 ENTRYPOINT npm start
+
+# expõe as portas de acesso ao contâiner.
+EXPOSE $PORTA
