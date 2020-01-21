@@ -1,14 +1,14 @@
 {
-  "name": "volume-exemplo",
+  "name": "node-custom",
   "version": "1.0.0",
-  "description": "",
+  "description": "frontend desenvolvido para estudo da tecnologia docker.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Pedro Henrique",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.3"
   }
