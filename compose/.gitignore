@@ -1,0 +1,13 @@
+# comentário.
+.idea/
+.vscode/
+
+# comentário.
+package-lock.json
+
+# comentário.
+node_modules/
+
+# comentário.
+*.iml
+*.log
