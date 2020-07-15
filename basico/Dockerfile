@@ -8,7 +8,7 @@ MAINTAINER Pedro Henrique
 ENV PORT=3000
 
 # comentário.
-#COPY . /var/www
+COPY . /var/www
 
 # comentário.
 WORKDIR /var/www
