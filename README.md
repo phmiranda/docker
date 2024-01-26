@@ -1,2 +1,1 @@
-# alura-docker
-Projeto do curso de Docker
+# DOCKER E DOCKER COMPOSE
